@@ -1,0 +1,29 @@
+/* Additional CSS file for links.html */
+
+h2 {
+/*	text-align: center;
+	font-family: 'EB Garamond', serif;
+    font-size: 175%;*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 200%;
+    text-align: center; 
+}
+
+.row h2 {
+    font-weight: 300;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;	
+}
+
+h3 {
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+    font-size: 150%;
+}
+
+p {
+	text-align: center;
+	font-size: 150%;
+}

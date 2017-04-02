@@ -1,0 +1,43 @@
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.content img {
+	width: 600px;
+	height: auto;
+}
+
+.menu {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #cee2ed;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	text-transform: lowercase;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+	font-size: 90%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+	font-size: 120%;
+    text-align: left;
+    text-transform: none;
+    color: #005dab;
+}

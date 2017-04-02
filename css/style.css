@@ -1,0 +1,124 @@
+/* Fonts */
+/*font-family: 'EB Garamond', serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Josefin Sans', sans-serif;*/
+
+html, body {
+	height: 100%;
+}
+
+/* Resets Bootstrap's default nav */
+
+.navbar .nav .active > a{
+/*	color:#ccc;*/
+    color: transparent;
+	background:none;
+	box-shadow:none;
+}
+
+.navbar .nav .active > a:hover{
+	background: none;
+	box-shadow: none;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+/*     color: #333333;*/
+    color: #005dab;
+     text-decoration: none;
+     background-color: transparent;
+}
+
+.navbar .nav {
+	display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    font-family: 'Josefin Sans', sans-serif;
+/*    font-family: 'EB Garamond', serif;*/
+    font-weight: 300;
+    font-size: 125%;
+    text-align: center;
+    text-shadow: none;
+}
+
+/* Updating nav */
+
+.color-me {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navbar .nav > li.dropdown.active.open > a, .navbar .nav > li.dropdown.active.open > ul.dropdown-menu a:hover, .navbar .nav > li.dropdown.open > a, .navbar .nav > li.dropdown.open > ul.dropdown-menu a:hover {
+    background-color: transparent;
+}
+
+
+/* Video playing as a background */
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+
+/* black and white filter? */
+/*    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%); 
+    -o-filter: grayscale(100%);
+    filter: url(resources.svg#desaturate);
+    filter: gray;
+    -webkit-filter: grayscale(1);*/
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('../images/rush_video.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+/* Content */
+
+.transparent {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+}
+
+a.instagram, a.fb, a.email {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    float: right;
+}
+
+.fa-envelope, .fa-instagram, .fa-facebook {
+    color: black;
+}
+

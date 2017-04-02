@@ -1,0 +1,25 @@
+.content img {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+	font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+	font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
