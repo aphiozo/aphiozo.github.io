@@ -76,9 +76,9 @@ html, body {
     min-width: 100%;
     min-height: 100%;
     -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-	    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 /* black and white filter? */
 /*    filter: grayscale(100%);
